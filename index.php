@@ -9,11 +9,11 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 <html>
 <head>
 	<link rel="stylesheet" href="index.css">	
-	<title>Homepage</title>
+	<title>Database User</title>
 </head>
 
 <body>
-	<h2>Homepage</h2>
+	<h2>Database User</h2>
 	<p>
 		<a href="add.php">Add New Data</a>
 	</p>
