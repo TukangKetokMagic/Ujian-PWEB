@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Atur tampilan tabel */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Atur gaya untuk header tabel */
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Atur gaya untuk sel-sel dalam tabel */
+td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+}
+
+/* Atur warna latar belakang untuk baris genap */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Efek hover untuk baris tabel */
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Atur gaya untuk tautan */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Ubah warna tautan saat dihover */
+a:hover {
+    color: darkblue;
+}
